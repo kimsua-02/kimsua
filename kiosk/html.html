@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김밥지옥 주문 키오스크</title>
+</head>
+<body>
+    <header>
+        <h1>김밥지옥 키오스크</h1>
+    </header>
+    <main>
+        <h2>메뉴 선택</h2>
+        <section>
+            <div class="menu-item" onclick="addToCart('쭈꾸미 김밥', 5000)">김밥<br>￦5,000</div>
+            <div class="menu-item" onclick="addToCart('훌랄라 라면', 5500)">라면<br>￦5,500</div>
+            <div class="menu-item" onclick="addToCart('분필 튀김', 4500)">튀김<br>￦4,500</div>
+            <div class="menu-item" onclick="addToCart('내장 떡볶이', 7000)">떡볶이<br>￦7,000</div>
+            <div class="menu-item" onclick="addToCart('염라대왕 돈까스', 5000)">돈까스<br>￦8,000</div>
+            <div class="menu-item" onclick="addToCart('두바이초콜릿 덮밥', 9900)">덮밥<br>￦9,900</div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>장바구니</h2>
+        <div id="empty-cart">장바구니가 비어있습니다.</div>
+        <div id="cart"></div>
+        <div id="total">합계 : ￦0</div>
+    </footer>
+
+    <script></script>
+</body>
+</html>
